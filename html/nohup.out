@@ -1,0 +1,4 @@
+[Fri Apr  3 08:40:41 2020] Failed to listen on 192.168.75.139:8000 (reason: Cannot assign requested address)
+[Fri Apr  3 08:42:15 2020] Failed to listen on 192.168.75.139:8000 (reason: Cannot assign requested address)
+PHP Notice:  Undefined index: image in /var/www/html/upload.php on line 12
+{"status":"error","error":true,"message":"No file was sent!"}[Fri Apr  3 09:34:14 2020] Failed to listen on 192.168.75.139:8000 (reason: Cannot assign requested address)

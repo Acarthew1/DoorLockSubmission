@@ -57,7 +57,7 @@ while True:
       best_match_index = np.argmin(face_distances)
       if matches[best_match_index]:
         name = known_face_names[best_match_index]
-	print("door Unlocked"
+        print("door Unlocked")
       face_names.append(name)
 
   process_this_frame = not process_this_frame
