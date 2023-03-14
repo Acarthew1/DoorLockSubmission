@@ -17,7 +17,7 @@ else:
   sys.exit()
 
 #This section will connect to the database and load the encodings for the selected user
-client = MongoClient("mongodb+srv://user:DexterDog!123@cluster0-da4vs.mongodb.net/test?authSource=admin&replicaSet=Cluster0-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true")
+client = MongoClient("mongodb+srv://user:{passwordone!}@cluster0-da4vs.mongodb.net/test?authSource=admin&replicaSet=Cluster0-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true")
 db=client.test
 collection = db.users
 
